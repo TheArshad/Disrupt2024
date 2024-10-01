@@ -86,14 +86,8 @@ nav {
     color: white;
 }
 
-
-.nav-items ul li a:hover:not(.active) 
-{
-    color: #6E99FF;
-}
-
-.nav-items ul a.active
-{
+.nav-items ul li a:hover,
+.nav-items ul li a.active{
     color: #6E99FF;
 
 }
@@ -411,6 +405,10 @@ button:hover {
     text-align: center;
     margin-top: 2vw;
     font-size: .8vw;
+}
+.timeline-rules a{
+    text-decoration: none;
+    color: gray;
 }
 
 .perks-disrupt {
@@ -849,7 +847,7 @@ footer{
     height: 100vw;
     background: #000;
     text-align: center;
-    
+    border-bottom: 2px  solid  #6D6D6D33;
     color: white;
     padding-top: 14vw;
 }
@@ -859,4 +857,144 @@ footer{
     justify-content: center;
     gap:2vw;
     font-size:8vw;
+    position:relative;
+    top:-5vw;
 }
+
+.timeline-v-para{
+   position: relative;
+    top:-5vw;
+    width: 30vw;
+height: 1.5vw;
+/* top: 331px;
+left: 478px; */
+margin-top: 2vw;
+
+font-family: Quicksand;
+font-size: 1vw;
+font-weight: 400;
+line-height: 1vw;
+text-align: center;
+color: #929292;
+margin-left: auto;
+margin-right: auto;
+}
+
+.timeline-line{
+    width: 0.3vw;
+    height: 75vw;
+    background-color:  #E0E0E0;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+align-items: center;
+margin:3vw;
+}
+.timeline-line-boxex{
+    width: 1vw;
+height: 1vw;
+top: 444px;
+left: 712px;
+gap: 0px;
+opacity: 0px;
+background-color: #6E99FF;
+border-radius: 50%;
+
+/* margin-top: 10vw; */
+}
+.time-para1-1{
+
+
+width: 36vw;
+height: 25vw;
+display:flex;
+flex-direction: column;
+justify-content: flex-start;
+padding-top: 3vw;
+ 
+
+}
+.time-para-head{
+    width: 36vw;
+height:0.5 vw;
+
+font-family: Coolvetica;
+font-size: 2.7vw;
+font-weight: 200;
+line-height: 3vw;
+letter-spacing: 0.04em;
+text-align: right;
+color: #FFFFFF;
+
+}
+.time-para-date{
+    width: 36vw;
+height: 2.5vw;
+
+font-family: Quicksand;
+font-size: 1.5vw;
+font-weight: 600;
+/* line-height: 30px; */
+text-align: right;
+color: #6E99FF;
+
+}
+.time-para-text{
+    width: 36vw;
+height: 7vw;
+
+font-family: Quicksand;
+font-size: 1.0vw;
+font-weight: 400;
+line-height: 1.3vw;
+text-align: right;
+color:#929292;
+
+}
+.timeline-main{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.time-para-head-2{
+    width: 36vw;
+height:0.5 vw;
+
+font-family: Coolvetica;
+font-size: 2.7vw;
+font-weight: 200;
+line-height: 3vw;
+letter-spacing: 0.04em;
+text-align: left;
+color: #FFFFFF;
+}
+.time-para-date-2{
+    width: 36vw;
+height: 2.5vw;
+
+font-family: Quicksand;
+font-size: 1.5vw;
+font-weight: 600;
+/* line-height: 30px; */
+text-align: left;
+color: #6E99FF;
+
+}
+.time-para-text-2{
+    width: 36vw;
+height: 7vw;
+
+font-family: Quicksand;
+font-size: 1.0vw;
+font-weight: 400;
+line-height: 1.3vw;
+text-align: left;
+color:#929292;
+
+}
+#sqr-1{
+    padding-top: 17vw;
+}
+
+
